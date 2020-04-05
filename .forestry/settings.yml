@@ -62,16 +62,16 @@ sections:
   exclude: "{_posts/**,README.md,LICENSE.md,index.md,blog/index.md,overview.md,showcase.md}"
   templates:
   - page
-- type: jekyll-posts
-  label: Post
-  create: all
-  templates:
-  - post
 - type: document
   path: _data/menus.yml
   label: Site Menus
   templates:
   - site_menus
+- type: jekyll-posts
+  label: Post
+  create: all
+  templates:
+  - post
 upload_dir: images
 public_path: "/images"
 front_matter_path: ''
