@@ -2,7 +2,7 @@
 title: Transform
 baseurl: "/"
 permalink: "/:title/"
-palette: navy
+palette: violet
 palettes:
   blue:
     sass:
